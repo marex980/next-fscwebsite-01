@@ -40,10 +40,10 @@ export default function Home() {
             opacity: 0,
           },
           visible: {
-            scale: 1,
+            scale: 2.5,
             opacity: 1,
             transition: {
-              delay: 0.4,
+              delay: 0.1,
             },
           },
         }}
