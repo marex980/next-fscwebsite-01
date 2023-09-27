@@ -4,21 +4,21 @@ import localFont from 'next/font/local'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const royal = localFont({
+export const royal = localFont({
   src: './fonts/ROYALERegular.woff2',
   display: 'swap',
   weight: 'normal',
   style: 'normal',
 })
 
-const logirent = localFont({
+export const logirent = localFont({
   src: './fonts/Logirent-Bold.ttf',
   display: 'swap',
   weight: 'bold',
   style: 'normal',
 })
 
-const poppins = localFont({
+export const poppins = localFont({
   src: './fonts/Poppins-Regular.ttf',
   display: 'swap',
   weight: 'normal',
@@ -33,7 +33,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${royal.className} ${logirent.className} ${poppins.className}`}>{children}</body>
+      <body className={`${poppins.className}`}>{children}</body>
     </html>
   )
 }
