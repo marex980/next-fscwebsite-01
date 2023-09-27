@@ -84,7 +84,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
+          <h2 className={`logirent mb-3 text-2xl font-semibold`}>
             Learn{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
@@ -101,7 +101,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
+          <h2 className={`royale mb-3 text-2xl font-semibold`}>
             Templates{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
