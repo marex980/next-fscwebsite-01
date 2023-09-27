@@ -68,7 +68,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`${royale.className} mb-3 text-2xl font-semibold`}>
+          {/* <h2 className={`{royale.className} mb-3 text-2xl font-semibold`}> */}
+          <h2 className={royale.className}>
             Docs{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
