@@ -4,7 +4,7 @@ import localFont from 'next/font/local'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const royal = localFont({
+export const royale = localFont({
   src: './fonts/ROYALERegular.woff2',
   display: 'swap',
   weight: 'normal',
