@@ -1,22 +1,22 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import localFont from 'next/font/local'
+// import localFont from 'next/font/local'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const royale = localFont({
-  src: './fonts/ROYALERegular.woff2',
-  display: 'swap',
-  weight: 'normal',
-  style: 'normal',
-})
+// export const royale = localFont({
+//   src: './fonts/ROYALERegular.woff2',
+//   display: 'swap',
+//   weight: 'normal',
+//   style: 'normal',
+// })
 
-export const logirent = localFont({
-  src: './fonts/Logirent-Bold.ttf',
-  display: 'swap',
-  weight: 'bold',
-  style: 'normal',
-})
+// export const logirent = localFont({
+//   src: './fonts/Logirent-Bold.ttf',
+//   display: 'swap',
+//   weight: 'bold',
+//   style: 'normal',
+// })
 
 export const poppins = localFont({
   src: './fonts/Poppins-Regular.ttf',

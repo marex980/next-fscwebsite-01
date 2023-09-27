@@ -1,21 +1,21 @@
 import localFont from 'next/font/local'
  
 const royale = localFont({
-    src: './fonts/ROYALERegular.woff2',
+    src: '..app/fonts/ROYALERegular.woff2',
     display: 'swap',
     weight: 'normal',
     style: 'normal',
   })
   
 const logirent = localFont({
-    src: './fonts/Logirent-Bold.ttf',
+    src: '..app/fonts/Logirent-Bold.ttf',
     display: 'swap',
     weight: 'bold',
     style: 'normal',
   })
   
 const poppins = localFont({
-    src: './fonts/Poppins-Regular.ttf',
+    src: '..app/fonts/Poppins-Regular.ttf',
     display: 'swap',
     weight: 'normal',
     style: 'normal',
