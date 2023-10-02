@@ -17,7 +17,7 @@ const HeroHeadline = ({
       <span>{titleRoyale} <span className="inline-block">{titleRoyaleSeparator}</span>{" "} </span> 
       <span className="block">{titleLogirent}</span>
     </h1>
-    <p className="flex-1 mt-[16px] font-normal text-[18px] text-[#B0B0B0] leading-[32.4px]">
+    <p className="flex-1 mt-[16px] font-normal text-[18px] text-white leading-[32.4px]">
       <span className="text-yellow-200">{subtitleFast}</span>{" "}
       <span className="">{subtitleComa}</span>{" "}
       <span className="text-blue-500">{subtitleSafe}</span>{" "}
