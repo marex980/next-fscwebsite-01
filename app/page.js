@@ -31,7 +31,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+      <div className="z-10 text-center m-[1em] lg:flex lg:w-full lg:flex-row lg:justify-between ">
         <motion.div
           initial="hidden"
           animate="visible"
@@ -64,7 +64,7 @@ export default function Home() {
               <h1>
                 <span className={`${royale.className} text-2xl`}>DESiGNER</span>
                 <span className={`${royale.className} text-2xl`}> &</span>
-                <span className={`${royale.className} text-2xl`}>
+                <span className={`${logirent.className} text-2xl`}>
                   DevelOper
                 </span>
               </h1>
