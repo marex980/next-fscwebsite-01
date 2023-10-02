@@ -59,32 +59,32 @@ export default function Home() {
               priority
             />
           </div> */}
-          <div className="hero__text flex">
-            <div className="hero__title text-light fade-in">
+          <div className="flex flex-col grow-[0.5] justify-evenly">
+            <div className="text-[hsl(var(--clr-light))] text-left lg:leading-[1.3]">
               <h1>
-                <span className={`${royale.className} text-2xl`}>DESiGNER</span>
-                <span className={`${royale.className} text-2xl`}> &</span>
-                <span className={`${logirent.className} text-2xl`}>
+                <span className={`${royale.className} text-[length:var(--fs-1000)]`}>DESiGNER</span>
+                <span className={`${royale.className} font-normal text-[length:var(--fs-700)]`}> &</span>
+                <span className={`${logirent.className} font-bold text-[length:var(--fs-1000)] block`}>
                   DevelOper
                 </span>
               </h1>
             </div>
-            <div className="hero__description">
-              <p className="hero__description--text fs-700 ff-sans--sec fade-in">
-                <span className="text__gradient text__gradient--fast fw-700">
+            <div className="lg:text-left">
+              <p className={`${logirent.className} text-[length:var(--fs-700)] lg:leading-[1.5]`}>
+                <span className="text-[hsl(var(--clr-fast--primary))] font-bold">
                   FAST
                 </span>
                 ,{' '}
-                <span className="text__gradient text__gradient--safe fw-700">
+                <span className="text-[hsl(var(--clr-safe--primary))] font-bold">
                   SAFE
                 </span>{' '}
                 anD{' '}
-                <span className="text__gradient text__gradient--cheap fw-700">
+                <span className="text-[hsl(var(--clr-cheap--primary))] font-bold">
                   CHEAP
                 </span>
-                <span className="d-block">
+                <span className="block">
                   CUSTOM MADE{' '}
-                  <span className="hero__description--website ff-sans--sec">
+                  <span className="inline-block">
                     webSiteS!
                   </span>
                 </span>
