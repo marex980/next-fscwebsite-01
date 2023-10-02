@@ -1,4 +1,5 @@
 import styles from "../styles";
+import { royale, logirent, poppins } from '../styles/fonts';
 
 const HeroHeadline = ({
   titleRoyale,
@@ -12,23 +13,23 @@ const HeroHeadline = ({
   subtitleCustom,
   subtitleWebsites,
 }) => (
-  <div className="flex-1 flex flex-col sm:max-w-[250px] min-w-[210px]">
-    <h1 className="mt-[26px] font-bold text-[24px] leading-[30.24px] text-white">
-      <span>{titleRoyale} {" "} <span className="inline-block">{titleRoyaleSeparator}</span></span> 
-      <span className="block">{titleLogirent}</span>
+  <div className="flex flex-col sm:max-w-[250px] min-w-[210px]">
+    <h1 className="mt-[26px] font-bold text-[4.3rem] text-white">
+      <span className={`${royale.className}`}>{titleRoyale} {" "} <span className={`${royale.className} text-[2rem] inline-block`}>{titleRoyaleSeparator}</span></span>
+      <span className={`${logirent.className} block`}>{titleLogirent}</span>
     </h1>
-    <p className="flex-1 mt-[16px] font-normal text-[18px] text-white leading-[32.4px]">
-      <span className="text-yellow-200">{subtitleFast}</span>{" "}
-      <span className="">{subtitleComa}</span>{" "}
-      <span className="text-blue-500">{subtitleSafe}</span>{" "}
-      <span className="">{subtitleAnd}</span>{" "}
-      <span className="text-green-500">{subtitleCheap}</span>{" "}
-      <span className="block">
+    <p className="mt-[16px] font-normal text-[24px] text-white leading-[32.4px]">
+      <span className={`${logirent.className} text-yellow-200`}>{subtitleFast}</span>
+      <span className={`${logirent.className} `}>{subtitleComa}</span>{" "}
+      <span className={`${logirent.className} text-blue-500`}>{subtitleSafe}</span>{" "}
+      <span className={`${logirent.className} `}>{subtitleAnd}</span>{" "}
+      <span className={`${logirent.className} text-green-500`}>{subtitleCheap}</span>{" "}
+      <span className={`${logirent.className} block`}>
         {subtitleCustom}{" "}
-        <span className="inline-block">{subtitleWebsites}</span>
+        <span className={`${logirent.className} inline-block`}>{subtitleWebsites}</span>
       </span>{" "}
     </p>
-  </div>
+  </div >
 );
 
 export default HeroHeadline;

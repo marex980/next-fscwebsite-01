@@ -1,61 +1,59 @@
 'use client';
+import Image from 'next/image';
+import { motion } from 'framer-motion';
 
-"use client";
-import Image from "next/image";
-import { motion } from "framer-motion";
+import styles from '../styles';
+import { newFeatures, heroHeadline } from '../constants';
+import NewFeatures from '../components/NewFeatures';
+import HeroHeadline from '../components/HeroHeadline';
 
-import styles from "../styles";
-import { newFeatures, heroHeadline } from "../constants";
-import NewFeatures from "../components/NewFeatures";
-import HeroHeadline from "../components/HeroHeadline";
-
-import { TitleText, TypingText } from "../components/CustomTexts";
-import { planetVariants, staggerContainer, fadeIn } from "../utils/motion";
+import { TitleText, TypingText } from '../components/CustomTexts';
+import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
 
 import { royale, logirent, poppins } from '../styles/fonts';
 
 export default function Home() {
   return (
     <div className="bg-primary-black min-h-screen">
-    <section className={`${styles.paddings} relative z-10`}>
-      <motion.div
-        variants={staggerContainer}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
-      >
+      <section className={`${styles.paddings} relative z-10`}>
         <motion.div
-          variants={fadeIn("right", "tween", 0.2, 1)}
-          className="flex-[0.95] flex justify-center flex-col"
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.25 }}
+          className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
         >
-          {/* <TypingText title="| Whats new?" /> */}
-          {/* <TitleText title={<>What's new about Metaversus?</>} /> */}
-          {/* <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
+          <motion.div
+            variants={fadeIn('right', 'tween', 0.2, 1)}
+            className="flex-[0.95] flex justify-center flex-col"
+          >
+            {/* <TypingText title="| Whats new?" /> */}
+            {/* <TitleText title={<>What's new about Metaversus?</>} /> */}
+            {/* <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
             {newFeatures.map((feature) => (
               <NewFeatures key={feature.title} {...feature} />
             ))}
           </div> */}
-          <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
-            {heroHeadline.map((headline) => (
-              <HeroHeadline key={headline} {...headline} />
-            ))}
-          </div>
-        </motion.div>
+            <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
+              {heroHeadline.map((headline) => (
+                <HeroHeadline key={headline} {...headline} />
+              ))}
+            </div>
+          </motion.div>
 
-        <motion.div
-          variants={planetVariants("right")}
-          className={`flex-1 ${styles.flexCenter}`}
-        >
-          <img
-            src="/next.svg"
-            alt="get-started"
-            className="w-[90%] h-[90%] object-contain"
-          />
+          <motion.div
+            variants={planetVariants('right')}
+            className={`flex-1 ${styles.flexCenter}`}
+          >
+            <img
+              src="/next.svg"
+              alt="get-started"
+              className="w-[90%] h-[90%] object-contain"
+            />
+          </motion.div>
         </motion.div>
-      </motion.div>
-    </section>
-  </div>
+      </section>
+    </div>
 
     // <main className="home flex bg-[hsl(var(--clr-dark))] text-[hsl(var(--clr-light))] text-[length:var(--fs-400)] overflow-x-hidden relative transition-all duration-[0.3s] ease-linear z-[1]">
     //   <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
