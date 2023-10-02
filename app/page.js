@@ -14,18 +14,18 @@ import { royale, logirent, poppins } from '../styles/fonts';
 
 export default function Home() {
   return (
-    <div className="bg-primary-black min-h-screen">
-      <section className={`${styles.paddings} relative z-10`}>
+    <main className="bg-primary-black min-h-screen">
+      <div className="">
         <motion.div
           variants={staggerContainer}
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.25 }}
-          className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
+          className={`${styles.innerWidth} flex flex-col m-4 text-center lg:min-w-full lg:flex-row lg:justify-between`}
         >
           <motion.div
             variants={fadeIn('right', 'tween', 0.2, 1)}
-            className="flex-[0.95] flex justify-center flex-col"
+            // className="flex-[0.95] flex justify-center flex-col"
           >
             {/* <TypingText title="| Whats new?" /> */}
             {/* <TitleText title={<>What's new about Metaversus?</>} /> */}
@@ -34,7 +34,7 @@ export default function Home() {
               <NewFeatures key={feature.title} {...feature} />
             ))}
           </div> */}
-            <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
+            <div className="">
               {heroHeadline.map((headline) => (
                 <HeroHeadline key={headline} {...headline} />
               ))}
@@ -52,8 +52,8 @@ export default function Home() {
             />
           </motion.div>
         </motion.div>
-      </section>
-    </div>
+      </div>
+    </main>
 
     // <main className="home flex bg-[hsl(var(--clr-dark))] text-[hsl(var(--clr-light))] text-[length:var(--fs-400)] overflow-x-hidden relative transition-all duration-[0.3s] ease-linear z-[1]">
     //   <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">

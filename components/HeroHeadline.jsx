@@ -13,8 +13,9 @@ const HeroHeadline = ({
   subtitleCustom,
   subtitleWebsites,
 }) => (
-  <div className="flex flex-col sm:max-w-[250px] min-w-[210px]">
-    <h1 className="mt-[26px] font-bold text-[4.3rem] text-white">
+  // <div className="flex flex-col sm:max-w-[250px] min-w-[210px]">
+  <div>
+    <h1 className="font-bold text-[4.3rem] text-white">
       <span className={`${royale.className}`}>{titleRoyale} {" "} <span className={`${royale.className} text-[2rem] inline-block`}>{titleRoyaleSeparator}</span></span>
       <span className={`${logirent.className} block`}>{titleLogirent}</span>
     </h1>
