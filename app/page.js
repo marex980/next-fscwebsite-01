@@ -21,7 +21,7 @@ export default function Home() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.25 }}
-          className={`${styles.innerWidth} flex flex-col m-4 text-center lg:min-w-full lg:flex-row lg:justify-between`}
+          className={`${styles.innerWidth} flex flex-col text-center lg:min-w-full lg:flex-row lg:justify-between`}
         >
           <motion.div
             variants={fadeIn('right', 'tween', 0.2, 1)}
