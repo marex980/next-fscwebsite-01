@@ -19,7 +19,7 @@ const HeroHeadline = ({
       <span className={`${royale.className} fs-1000`}>{titleRoyale} {" "} <span className={`${royale.className} fs-700 inline-block`}>{titleRoyaleSeparator}</span></span>
       <span className={`${logirent.className} block fs-1000`}>{titleLogirent}</span>
     </h1>
-    <p className="mt-[16px] font-normal fs-700 text-white leading-[32.4px]">
+    <p className="mt-[16px] font-normal fs-700 text-white">
       <span className={`${logirent.className} text-yellow-200`}>{subtitleFast}</span>
       <span className={`${logirent.className} `}>{subtitleComa}</span>{" "}
       <span className={`${logirent.className} text-blue-500`}>{subtitleSafe}</span>{" "}

@@ -43,7 +43,7 @@ export default function Home() {
 
           <motion.div
             variants={planetVariants('right')}
-            className={`flex-1 ${styles.flexCenter}`}
+            className={`flex ${styles.flexCenter}`}
           >
             <img
               src="/next.svg"
