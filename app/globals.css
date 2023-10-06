@@ -81,6 +81,22 @@
   scroll-behavior: smooth;
 }
 
+
+.fs-1000 {
+  font-size: var(--fs-1000);
+}
+
+.fs-900 {
+  font-size: var(--fs-900);
+}
+
+.fs-800 {
+  font-size: var(--fs-800);
+}
+
+.fs-700 {
+  font-size: var(--fs-700);
+}
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
