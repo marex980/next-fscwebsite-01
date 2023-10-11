@@ -12,9 +12,18 @@ import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
 
 import { royale, logirent, poppins } from '../styles/fonts';
 
+import logoImg from "../public/logo-light.svg"
+
 export default function Home() {
   return (
     <main className="bg-primary-black min-h-screen">
+      <section className='hero__logo'>
+      <img
+              src={logoImg}
+              alt="FSC website logo"
+              className="w-[160px] h-[45px] block"
+            />
+      </section>
       <div className="">
         <motion.div
           variants={staggerContainer}
