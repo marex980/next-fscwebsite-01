@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <main className="bg-primary-black min-h-screen overflow-x-hidden">
       <section className='hero__logo'>
-      <image
+      <Image
               src="/logo-light.svg"
               alt="FSC website logo"
               width={160}
