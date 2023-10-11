@@ -12,7 +12,6 @@ import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
 
 import { royale, logirent, poppins } from '../styles/fonts';
 
-import logoImg from "../public/logo-light.svg"
 
 export default function Home() {
   return (
@@ -56,10 +55,10 @@ export default function Home() {
             variants={planetVariants('right')}
             className={`flex-1 ${styles.flexCenter}`}
           >
-            <img
-              src="/next.svg"
-              alt="get-started"
-              className="w-[90%] h-[90%] object-contain"
+      <Image
+              src="/images/hero.webp"
+              alt="hero image"
+              priority
             />
           </motion.div>
         </motion.div>
