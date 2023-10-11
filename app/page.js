@@ -12,6 +12,8 @@ import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
 
 import { royale, logirent, poppins } from '../styles/fonts';
 
+import heroImg from '../public/images/hero.webp'
+
 
 export default function Home() {
   return (
@@ -56,11 +58,11 @@ export default function Home() {
             className={`flex-1 ${styles.flexCenter}`}
           >
       <Image
-              src="/images/hero.webp"
+              src={heroImg}
               alt="hero image"
-              widht="600px"
-              height="600px"
-              className="min-h-full"
+              // widht="600px"
+              // height="600px"
+              // className="min-h-full"
               priority
             />
           </motion.div>
