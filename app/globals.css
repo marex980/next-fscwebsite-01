@@ -210,3 +210,4 @@
     hsl(var(--clr-cheap)) 80%,
     hsl(var(--clr-cheap) / 0) 100%
   );
+}
