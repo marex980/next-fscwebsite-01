@@ -224,6 +224,13 @@
 }
 
 
+.container-wrapper {
+  padding: 2em 2em 0 2em;
+}
+
+.m-inline-auto{
+  margin-inline: auto;
+}
 
 
 .gradient-01 {
