@@ -16,10 +16,10 @@ import logoImg from "../public/logo-light.svg"
 
 export default function Home() {
   return (
-    <main className="bg-primary-black min-h-screen">
+    <main className="bg-primary-black min-h-screen overflow-x-hidden">
       <section className='hero__logo'>
       <img
-              src={logoImg}
+              src="/logo-light.svg"
               alt="FSC website logo"
               className="w-[160px] h-[45px] block"
             />
