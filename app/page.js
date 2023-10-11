@@ -58,8 +58,8 @@ export default function Home() {
       <Image
               src="/images/hero.webp"
               alt="hero image"
-              widht={600}
-              height={600}
+              widht={600px}
+              height={600px}
               className="min-h-full"
               priority
             />
