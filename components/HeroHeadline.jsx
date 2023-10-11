@@ -20,11 +20,11 @@ const HeroHeadline = ({
       <span className={`${logirent.className} block fs-1000`}>{titleLogirent}</span>
     </h1>
     <p className="mt-[16px] font-normal fs-700 text-white">
-      <span className={`${logirent.className} text-yellow-200`}>{subtitleFast}</span>
+      <span className={`${logirent.className} text__gradient text__gradient--fast`}>{subtitleFast}</span>
       <span className={`${logirent.className} `}>{subtitleComa}</span>{" "}
-      <span className={`${logirent.className} text-blue-500`}>{subtitleSafe}</span>{" "}
+      <span className={`${logirent.className} text__gradient text__gradient--safe`}>{subtitleSafe}</span>{" "}
       <span className={`${logirent.className} `}>{subtitleAnd}</span>{" "}
-      <span className={`${logirent.className} text-green-500`}>{subtitleCheap}</span>{" "}
+      <span className={`${logirent.className} text__gradient text__gradient--cheap`}>{subtitleCheap}</span>{" "}
       <span className={`${logirent.className} block`}>
         {subtitleCustom}{" "}
         <span className={`${logirent.className} inline-block`}>{subtitleWebsites}</span>

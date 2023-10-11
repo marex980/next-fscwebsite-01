@@ -58,7 +58,7 @@ export default function Home() {
       <Image
               src="/images/hero.webp"
               alt="hero image"
-              className="min-h-full"
+              // className="min-h-full"
               priority
             />
           </motion.div>

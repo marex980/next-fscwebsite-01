@@ -98,6 +98,134 @@
   font-size: var(--fs-700);
 }
 
+/* colors */
+
+.clr-dark {
+  background-color: hsl(var(--clr-dark));
+}
+
+.clr-light {
+  background-color: hsl(var(--clr-light));
+}
+
+.clr-white {
+  background-color: hsl(var(--clr-white));
+}
+
+.clr-gray {
+  background-color: hsl(var(--clr-gray));
+}
+
+.clr-safe {
+  background-color: hsl(var(--clr-safe));
+}
+
+.clr-safe--shade {
+  background-color: hsl(var(--clr-safe--shade));
+}
+
+.clr-cheap {
+  background-color: hsl(var(--clr-cheap));
+}
+
+.clr-cheap--shade {
+  background-color: hsl(var(--clr-cheap--shade));
+}
+
+.clr-fast--primary {
+  background-color: hsl(var(--clr-fast--primary));
+}
+
+.clr-fast--primary--shade {
+  background-color: hsl(var(--clr-fast--primary--shade));
+}
+
+.clr-fast--secondary {
+  background-color: hsl(var(--clr-fast--secondary));
+}
+
+.clr-fast--secondary-shade {
+  background-color: hsl(var(--clr-fast--secondary--shade));
+}
+
+.text-dark {
+  color: hsl(var(--clr-dark));
+}
+
+.text-light {
+  color: hsl(var(--clr-light));
+}
+
+.text-white {
+  color: hsl(var(--clr-white));
+}
+
+.text-gray {
+  color: hsl(var(--clr-gray));
+}
+
+.text-safe {
+  color: hsl(var(--clr-safe));
+}
+
+.text-safe--shade {
+  color: hsl(var(--clr-safe-shade));
+}
+
+.text-cheap {
+  color: hsl(var(--clr-cheap));
+}
+
+.text-cheap-shade {
+  color: hsl(var(--clr-cheap--shade));
+}
+
+.text-fast--primary {
+  color: hsl(var(--clr-fast--primary));
+}
+
+.text-fast--primary--shade {
+  color: hsl(var(--clr-fast--primary--shade));
+}
+
+.text-fast--secondary {
+  color: hsl(var(--clr-fast--secondary));
+}
+
+.text-fast--secondary--shade {
+  color: hsl(var(--clr-fast--secondary--shade));
+}
+
+.text__gradient,
+.section__headline::after,
+.section__explore::after {
+  color: hsl(var(--bg-color));
+}
+
+.text__gradient--fast,
+.explore__text--fast::after,
+.section__headline--fast::after {
+  --bg-color: var(--clr-fast--primary);
+  /* --bg-color: var(--clr-light); */
+}
+
+.text__gradient--safe,
+.explore__text--safe::after,
+.section__headline--safe::after {
+  --bg-color: var(--clr-safe);
+  /* --bg-color: var(--clr-light); */
+}
+
+.text__gradient--cheap,
+.explore__text--cheap::after,
+.section__headline--cheap::after {
+  --bg-color: var(--clr-cheap);
+  /* --bg-color: var(--clr-light); */
+}
+
+
+
+
 .gradient-01 {
   background-image: linear-gradient(270deg,
       hsl(295deg 76% 51%) 0%,
@@ -187,6 +315,8 @@
   background: #65c4fa;
   filter: blur(150px);
 }
+
+
 
 .hero__logo::after {
   content: "";
