@@ -6,6 +6,7 @@ import styles from '../styles';
 import { newFeatures, heroHeadline } from '../constants';
 import NewFeatures from '../components/NewFeatures';
 import HeroHeadline from '../components/HeroHeadline';
+import { Dots, Lines } from '../components/Images';
 
 import { TitleText, TypingText } from '../components/CustomTexts';
 import {
@@ -79,6 +80,8 @@ export default function Home() {
           </div>
         </motion.div>
       </div>
+      <Dots />
+      <Lines />
     </main>
 
     // <main className="home flex bg-[hsl(var(--clr-dark))] text-[hsl(var(--clr-light))] text-[length:var(--fs-400)] overflow-x-hidden relative transition-all duration-[0.3s] ease-linear z-[1]">
