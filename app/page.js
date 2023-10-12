@@ -29,7 +29,7 @@ export default function Home() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.25 }}
-          className="flex flex-col text-center lg:text-left lg:flex-row lg:justify-between"
+          className="flex flex-col justify-between"
         >
           <motion.div variants={zoomIn(0, 0.7)} className="hero__logo">
             <Image
@@ -41,7 +41,7 @@ export default function Home() {
             />
           </motion.div>
           <div
-            className={`${styles.innerWidth} flex flex-col text-left lg:min-w-full lg:flex-row lg:justify-between`}
+            className={`${styles.innerWidth} flex flex-col text-center lg:text-left lg:min-w-full lg:flex-row lg:justify-between`}
           >
             <motion.div
               variants={fadeIn("right", "tween", 0.7, 1)}
