@@ -22,7 +22,7 @@ import heroImg from "../public/images/hero.webp";
 
 export default function Home() {
   return (
-    <main className="2xl:max-w-[1600px] container-wrapper m-inline-auto min-h-screen overflow-x-hidden">
+    <main className="2xl:max-w-[1600px] container-wrapper m-inline-auto overflow-x-hidden">
       <div className="">
         <motion.div
           variants={staggerContainer}
