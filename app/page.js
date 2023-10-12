@@ -29,7 +29,7 @@ export default function Home() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.25 }}
-          className="flex flex-column text-center lg:text-left lg:flex-row lg:justify-between"
+          className="flex flex-col text-center lg:text-left lg:flex-row lg:justify-between"
         >
           <motion.div variants={zoomIn(0, 0.7)} className="hero__logo">
             <Image
