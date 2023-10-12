@@ -324,7 +324,14 @@
 }
 
 
-
+@media (max-width: 1050px) {
+  .hero__logo {
+    display: none;
+  }
+  .hero__logo::after {
+    margin-left: inherit;
+  }
+}
 .hero__logo::after {
   content: "";
   display: block;

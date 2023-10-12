@@ -20,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} bg-primary-black`}>{children}</body>
+      <body className={`${poppins.className} bg-primary-black overflow-x-hidden`}>{children}</body>
     </html>
   );
 }
