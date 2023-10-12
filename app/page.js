@@ -29,7 +29,7 @@ export default function Home() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.25 }}
-          className="flex flex-col overflow-hidden justify-between h-[95vh]"
+          className="flex flex-col overflow-hidden justify-between h-[100vh]"
         >
           <motion.div variants={zoomIn(0, 0.7)} className="hero__logo">
             <Image
