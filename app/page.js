@@ -55,7 +55,7 @@ export default function Home() {
               <NewFeatures key={feature.title} {...feature} />
             ))}
           </div> */}
-              <div className="basis-2/3">
+              <div className="">
                 {heroHeadline.map((headline) => (
                   <HeroHeadline key={headline} {...headline} />
                 ))}
@@ -64,7 +64,7 @@ export default function Home() {
 
             <motion.div
               variants={planetVariants("right")}
-              className={`grow-0 shrink-0  basis-1/2 ${styles.flexCenter}`}
+              className={`grow-0 shrink-0 basis-1/2 ${styles.flexCenter}`}
             >
               <Image
                 src={heroImg}
