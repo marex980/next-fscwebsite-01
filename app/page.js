@@ -1,24 +1,24 @@
-'use client';
-import Image from 'next/image';
-import { motion } from 'framer-motion';
+"use client";
+import Image from "next/image";
+import { motion } from "framer-motion";
 
-import styles from '../styles';
-import { newFeatures, heroHeadline } from '../constants';
-import NewFeatures from '../components/NewFeatures';
-import HeroHeadline from '../components/HeroHeadline';
-import { Dots, Lines } from '../components/Images';
+import styles from "../styles";
+import { newFeatures, heroHeadline } from "../constants";
+import NewFeatures from "../components/NewFeatures";
+import HeroHeadline from "../components/HeroHeadline";
+import { Dots, Lines } from "../components/Images";
 
-import { TitleText, TypingText } from '../components/CustomTexts';
+import { TitleText, TypingText } from "../components/CustomTexts";
 import {
   planetVariants,
   staggerContainer,
   fadeIn,
   zoomIn,
-} from '../utils/motion';
+} from "../utils/motion";
 
-import { royale, logirent, poppins } from '../styles/fonts';
+import { royale, logirent, poppins } from "../styles/fonts";
 
-import heroImg from '../public/images/hero.webp';
+import heroImg from "../public/images/hero.webp";
 
 export default function Home() {
   return (
@@ -31,22 +31,20 @@ export default function Home() {
           viewport={{ once: false, amount: 0.25 }}
           className="flex flex-row text-center lg:text-left lg:flex-col lg:justify-between"
         >
-          <motion.div variants={zoomIn(0, 0.7)}>
-            <section className="hero__logo">
-              <Image
-                src="/logo-light.svg"
-                alt="FSC website logo"
-                width={160}
-                height={45}
-                className="hero__logo-img block"
-              />
-            </section>
+          <motion.div variants={zoomIn(0, 0.7)} className="hero__logo">
+            <Image
+              src="/logo-light.svg"
+              alt="FSC website logo"
+              width={160}
+              height={45}
+              className="hero__logo-img block"
+            />
           </motion.div>
           <div
             className={`${styles.innerWidth} flex flex-col text-left lg:min-w-full lg:flex-row lg:justify-between`}
           >
             <motion.div
-              variants={fadeIn('right', 'tween', 0.7, 1)}
+              variants={fadeIn("right", "tween", 0.7, 1)}
               className="grow-0 shrink-0 basis-1/2"
               // className="flex-[0.95] flex justify-center flex-col"
             >
@@ -65,7 +63,7 @@ export default function Home() {
             </motion.div>
 
             <motion.div
-              variants={planetVariants('right')}
+              variants={planetVariants("right")}
               className={`grow-0 shrink-0  basis-1/2 ${styles.flexCenter}`}
             >
               <Image
