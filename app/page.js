@@ -38,7 +38,7 @@ export default function Home() {
                 alt="FSC website logo"
                 width={160}
                 height={45}
-                className="block"
+                className="hero__logo-img block"
               />
             </section>
           </motion.div>

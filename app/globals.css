@@ -325,7 +325,7 @@
 
 
 @media (max-width: 1050px) {
-  .hero__logo {
+  .hero__logo-img {
     display: none;
   }
   .hero__logo::after {
