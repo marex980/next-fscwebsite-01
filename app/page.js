@@ -25,7 +25,7 @@ export default function Home() {
     // <main className="2xl:max-w-[1600px] container-wrapper m-inline-auto overflow-x-hidden">
           <main className="overflow-x-hidden relative">
 
-      <div className="">
+      {/* <div className=""> */}
         <motion.div
           variants={staggerContainer}
           initial="hidden"
@@ -80,7 +80,7 @@ export default function Home() {
             </motion.div>
           </div>
         </motion.div>
-      </div>
+      {/* </div> */}
       <Dots />
       <Lines />
     </main>
