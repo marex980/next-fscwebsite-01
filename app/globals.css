@@ -232,6 +232,10 @@
   margin-inline: auto;
 }
 
+.min-vh-95{
+  min-height: 95vh;
+}
+
 
 .gradient-01 {
   background-image: linear-gradient(270deg,

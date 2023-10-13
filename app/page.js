@@ -32,7 +32,7 @@ export default function Home() {
           whileInView="show"
           viewport={{ once: false, amount: 0.25 }}
           // className="flex flex-col overflow-hidden justify-between h-[100vh]"
-          className="pt-[2em] pb-0 px-[2em] flex flex-col relative origin-[center_top] transition-all duration-[0.3s] ease-linear delay-[0.4s] max-w-[1600px] justify-between min-h-screen text-center gap-4"
+          className="pt-[2em] pb-0 px-[2em] flex flex-col relative origin-[center_top] transition-all duration-[0.3s] ease-linear delay-[0.4s] max-w-[1600px] justify-between m-inline-auto text-center gap-4 min-vh-95"
         >
           <motion.div variants={zoomIn(0, 0.7)} className="hero__logo">
             <Image
