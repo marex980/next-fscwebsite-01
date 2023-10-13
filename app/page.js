@@ -2,13 +2,13 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-import styles from "../styles";
+// import styles from "../styles";
 import { newFeatures, heroHeadline } from "../constants";
-import NewFeatures from "../components/NewFeatures";
+// import NewFeatures from "../components/NewFeatures";
 import HeroHeadline from "../components/HeroHeadline";
 import { Dots, Lines } from "../components/Images";
 
-import { TitleText, TypingText } from "../components/CustomTexts";
+// import { TitleText, TypingText } from "../components/CustomTexts";
 import {
   planetVariants,
   staggerContainer,
@@ -16,7 +16,7 @@ import {
   zoomIn,
 } from "../utils/motion";
 
-import { royale, logirent, poppins } from "../styles/fonts";
+// import { royale, logirent, poppins } from "../styles/fonts";
 
 import heroImg from "../public/images/hero.webp";
 
@@ -41,7 +41,7 @@ export default function Home() {
             />
           </motion.div>
           <div
-            className={`${styles.innerWidth} flex flex-col text-center lg:text-left lg:min-w-full lg:flex-row lg:justify-between`}
+            className="flex flex-col text-center lg:text-left lg:min-w-full lg:flex-row lg:justify-between"
           >
             <motion.div
               variants={fadeIn("right", "tween", 0.7, 1)}
@@ -64,7 +64,7 @@ export default function Home() {
 
             <motion.div
               variants={planetVariants("right")}
-              className={`grow-0 shrink-0 basis-1/2 ${styles.flexCenter}`}
+              className="flex justify-center items-center grow-0 shrink-0 basis-1/2"
             >
               <Image
                 src={heroImg}
