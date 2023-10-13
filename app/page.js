@@ -22,14 +22,17 @@ import heroImg from "../public/images/hero.webp";
 
 export default function Home() {
   return (
-    <main className="2xl:max-w-[1600px] container-wrapper m-inline-auto overflow-x-hidden">
+    // <main className="2xl:max-w-[1600px] container-wrapper m-inline-auto overflow-x-hidden">
+          <main className="overflow-x-hidden relative">
+
       <div className="">
         <motion.div
           variants={staggerContainer}
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.25 }}
-          className="flex flex-col overflow-hidden justify-between h-[100vh]"
+          // className="flex flex-col overflow-hidden justify-between h-[100vh]"
+          className="pt-[2em] pb-0 px-[2em] flex flex-col relative origin-[center_top] transition-all duration-[0.3s] ease-linear delay-[0.4s] max-w-[1600px] justify-between min-h-screen text-center gap-4"
         >
           <motion.div variants={zoomIn(0, 0.7)} className="hero__logo">
             <Image
