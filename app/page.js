@@ -48,7 +48,7 @@ export default function Home() {
           >
             <motion.div
               variants={fadeIn("right", "tween", 0.7, 1)}
-              className="grow-0 shrink-0 basis-1/2"
+              className=""
               // className="flex-[0.95] flex justify-center flex-col"
             >
               {/* <TypingText title="| Whats new?" /> */}
@@ -67,7 +67,7 @@ export default function Home() {
 
             <motion.div
               variants={planetVariants("right")}
-              className="flex justify-center items-center grow-0 shrink-0 basis-1/2"
+              className="flex justify-center items-center"
             >
               <Image
                 src={heroImg}
