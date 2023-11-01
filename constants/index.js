@@ -103,3 +103,9 @@ export const heroHeadline = [
 ];
 
 
+export const buttons = [
+  {
+    name: 'fast',
+    classColor: "explore__text--fast",
+  },
+];
