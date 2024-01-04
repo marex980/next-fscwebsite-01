@@ -1,3 +1,6 @@
+import { Dots, Lines } from "../components/Images";
+
+
 export const exploreWorlds = [
   {
     id: 'world-1',
