@@ -80,7 +80,7 @@ export default function Home() {
           </motion.div>
         </div>
         {/* Bottom Component */}
-        <div className="w-full py-8 flex flex-row justify-between">
+        {/* <div className="w-full py-8 flex flex-row justify-between">
           <div className="bg-white shadow-md rounded-lg p-4 m-2 flex-1">
             <h2 className="text-2xl font-semibold">Card 1</h2>
             <p className="mt-2">Content for the first card.</p>
@@ -93,7 +93,21 @@ export default function Home() {
             <h2 className="text-2xl font-semibold">Card 3</h2>
             <p className="mt-2">Content for the third card.</p>
           </div>
-        </div>
+        </div> */}
+            <nav className="flex justify-between py-5 px-10 bg-gray-900">
+      <button className="box__fsc">
+        <p className="section__explore explore__text--fast text-white font-semibold">EXPLORE</p>
+        <img src="https://raw.githubusercontent.com/marex980/fsc-heroimg/main/hero-img-rocket.webp" alt="Rocket" className="character rocket" />
+      </button>
+      <button className="box__fsc">
+        <p className="section__explore explore__text--safe text-white font-semibold">EXPLORE</p>
+        <img src="https://raw.githubusercontent.com/marex980/fsc-heroimg/main/hero-img-padlock.webp" alt="Padlock" className="character padlock" />
+      </button>
+      <button className="box__fsc">
+        <p className="section__explore explore__text--cheap text-white font-semibold">EXPLORE</p>
+        <img src="https://raw.githubusercontent.com/marex980/fsc-heroimg/main/hero-img-scisssors.webp" alt="Scissors" className="character scissors" />
+      </button>
+    </nav>
         <Lines />
       </motion.div>
       {/* </div> */}
