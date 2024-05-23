@@ -79,10 +79,8 @@ export default function Home() {
               />
             </motion.div>
           </div>
-        </motion.div>
-      {/* </div> */}
-            {/* Bottom Component */}
-            <div className="w-full py-8 bg-blue-100 flex flex-row justify-between">
+                      {/* Bottom Component */}
+                      <div className="w-full py-8 bg-blue-100 flex flex-row justify-between">
         <div className="bg-white shadow-md rounded-lg p-4 m-2 flex-1">
           <h2 className="text-2xl font-semibold">Card 1</h2>
           <p className="mt-2">Content for the first card.</p>
@@ -96,6 +94,9 @@ export default function Home() {
           <p className="mt-2">Content for the third card.</p>
         </div>
       </div>
+        </motion.div>
+      {/* </div> */}
+
       <Dots />
       <Lines />
     </main>
