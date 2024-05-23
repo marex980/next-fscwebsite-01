@@ -16,8 +16,8 @@ const HeroHeadline = ({
   // <div className="flex flex-col sm:max-w-[250px] min-w-[210px]">
   <div>
     <h1 className="font-bold text-white">
-      <span className={`${royale.className} text-4xl lg:text-xxl`}>{titleRoyale} {" "} <span className={`${royale.className} fs-700 inline-block`}>{titleRoyaleSeparator}</span></span>
-      <span className={`${logirent.className} block text-4xl lg:text-xxl`}>{titleLogirent}</span>
+      <span className={`${royale.className} text-4xl lg:text-8xl`}>{titleRoyale} {" "} <span className={`${royale.className} fs-700 inline-block`}>{titleRoyaleSeparator}</span></span>
+      <span className={`${logirent.className} block text-4xl lg:text-8xl`}>{titleLogirent}</span>
     </h1>
     <p className="mt-[16px] font-normal fs-700 text-white">
       <span className={`${logirent.className} text__gradient text__gradient--fast`}>{subtitleFast}</span>
