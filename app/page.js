@@ -94,20 +94,20 @@ export default function Home() {
             <p className="mt-2">Content for the third card.</p>
           </div>
         </div> */}
-            <nav className="flex justify-between py-5 px-10 bg-gray-900">
-      <button className="box__fsc">
-        <p className="section__explore explore__text--fast text-white font-semibold">EXPLORE</p>
-        <img src="https://raw.githubusercontent.com/marex980/fsc-heroimg/main/hero-img-rocket.webp" alt="Rocket" className="character rocket" />
-      </button>
-      <button className="box__fsc">
-        <p className="section__explore explore__text--safe text-white font-semibold">EXPLORE</p>
-        <img src="https://raw.githubusercontent.com/marex980/fsc-heroimg/main/hero-img-padlock.webp" alt="Padlock" className="character padlock" />
-      </button>
-      <button className="box__fsc">
-        <p className="section__explore explore__text--cheap text-white font-semibold">EXPLORE</p>
-        <img src="https://raw.githubusercontent.com/marex980/fsc-heroimg/main/hero-img-scisssors.webp" alt="Scissors" className="character scissors" />
-      </button>
-    </nav>
+        <nav className="flex-grow flex justify-around items-center gap-[1em] [perspective:2500px] max-w-[1054px] min-w-[500px]">
+          <button className="flex-grow flex justify-center items-center bg-transparent border-[solid] border-[1px] border-[rgba(245,247,250,0.06)] bg-[linear-gradient(_101deg,_rgba(245,_247,_250,_0),_rgba(245,_247,_250,_0.12)_52%,_rgba(245,_247,_250,_0)_)] backdrop-filter backdrop-blur-2xl rounded-tl-[24px] rounded-br-[24px] rounded-tr-[0] rounded-bl-[0] h-[9em] [transition:all_0.5s] cursor-pointer [transform:perspective(500px)] [transition:0.6s] hover:[transform:perspective(900px)_translateY(-5%)_rotateX(25deg)_translateZ(0)] hover:[box-shadow:2px_35px_32px_-8px_rgba(0,_0,_0,_0.75)]">
+            <p className="section__explore explore__text--fast text-white font-semibold">EXPLORE</p>
+            <img src="https://raw.githubusercontent.com/marex980/fsc-heroimg/main/hero-img-rocket.webp" alt="Rocket" className="character rocket" />
+          </button>
+          <button className="flex-grow flex justify-center items-center bg-transparent border-[solid] border-[1px] border-[rgba(245,247,250,0.06)] bg-[linear-gradient(_101deg,_rgba(245,_247,_250,_0),_rgba(245,_247,_250,_0.12)_52%,_rgba(245,_247,_250,_0)_)] backdrop-filter backdrop-blur-2xl rounded-tl-[24px] rounded-br-[24px] rounded-tr-[0] rounded-bl-[0] h-[9em] [transition:all_0.5s] cursor-pointer [transform:perspective(500px)] [transition:0.6s] hover:[transform:perspective(900px)_translateY(-5%)_rotateX(25deg)_translateZ(0)] hover:[box-shadow:2px_35px_32px_-8px_rgba(0,_0,_0,_0.75)]">
+            <p className="section__explore explore__text--safe text-white font-semibold">EXPLORE</p>
+            <img src="https://raw.githubusercontent.com/marex980/fsc-heroimg/main/hero-img-padlock.webp" alt="Padlock" className="character padlock" />
+          </button>
+          <button className="flex-grow flex justify-center items-center bg-transparent border-[solid] border-[1px] border-[rgba(245,247,250,0.06)] bg-[linear-gradient(_101deg,_rgba(245,_247,_250,_0),_rgba(245,_247,_250,_0.12)_52%,_rgba(245,_247,_250,_0)_)] backdrop-filter backdrop-blur-2xl rounded-tl-[24px] rounded-br-[24px] rounded-tr-[0] rounded-bl-[0] h-[9em] [transition:all_0.5s] cursor-pointer [transform:perspective(500px)] [transition:0.6s] hover:[transform:perspective(900px)_translateY(-5%)_rotateX(25deg)_translateZ(0)] hover:[box-shadow:2px_35px_32px_-8px_rgba(0,_0,_0,_0.75)]">
+            <p className="section__explore explore__text--cheap text-white font-semibold">EXPLORE</p>
+            <img src="https://raw.githubusercontent.com/marex980/fsc-heroimg/main/hero-img-scisssors.webp" alt="Scissors" className="character scissors" />
+          </button>
+        </nav>
         <Lines />
       </motion.div>
       {/* </div> */}
